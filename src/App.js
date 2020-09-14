@@ -35,8 +35,7 @@ class App extends Component {
       <div className="App">
         <h1>Welcome to Char Splitter</h1>
         <input type="text" onChange={this.handleTextChange} value={this.state.string} />
-        <p>{this.state.string}</p>
-        <ValidationComponent string={this.state.string} />
+        <br></br>
         {charList}
       </div>
     )
@@ -44,3 +43,5 @@ class App extends Component {
 }
 
 export default App;
+//  <ValidationComponent string={this.state.string} />
+// <p>{this.state.string}</p>
