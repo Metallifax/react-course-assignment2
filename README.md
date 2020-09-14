@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Possible Enhancements
+- Make the CSS a little more easy to look at
+- Add some instructions for users to easily play with it
+
 ## Assignment Tasks
 
 1. Create an input fied (in App component) with a change listener which outputs the length of the entered text below it (e.g in a paragraph)
